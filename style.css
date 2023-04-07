@@ -1,0 +1,42 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 248px;
+  width: 173px;
+  margin: 17px;
+  padding: 84px;
+  align-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 36px;
+}
+
+h4 {
+  width: 194px;
+  text-align: center;
+}
+p {
+  width: 168px;
+  text-align: center;
+  color: #777;
+  font-size: x-small;
+}
+img {
+  width: 200px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 780px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.95;
+    height: 268px;
+    width: 173px;
+    margin: 17px;
+    padding: 84px;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 36px;
+  }
+}
